@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #273549;
+  font-family: "Source Code Pro", monospace;
+  color: #fff;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+span {
+  color: #10b981;
+}
+
+h2 {
+  color: #d5d4d8;
+  font-size: 0.9em;
+  text-decoration: underline;
+}
+
+.emoji {
+  font-size: 2rem;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.selection {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkbox {
+  width: 25px;
+  height: 20px;
+}
+
+button {
+  margin: 1.5em 0 1.5em;
+  padding: 0.75em 1.25em;
+  width: 75%;
+  text-transform: uppercase;
+  color: inherit;
+  font-family: inherit;
+  font-weight: 700;
+  background-color: #10b981;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.password-display {
+  margin-top: 1em;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.5em;
+}
+
+.password-display div {
+  flex-basis: 25%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #10b981;
+  border-radius: 10px;
+  padding: 1em 0;
+}
+
+.hidden {
+  display: none;
+}
