@@ -1,8 +1,8 @@
-# KeyGenius 🔐
+# PassGenius 🔐
 
 <hr>
 
-KeyGenius is a web app created with HTML, CSS and JS.
+PassGenius is a web app created with HTML, CSS and JS.
 It gives the user an option to generate up to 8 passwords at a time,
 each of a length of 15 characters.
 The project can be viewed <a href ="https://pass-genius.netlify.app/">here</a>.
